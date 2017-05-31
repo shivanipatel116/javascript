@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+       
+        <title>Web Storage API</title>
+        
+        
+    </head>
+    
+    <body>
+
+        <h1>Web Storage Demo 2</h1>
+        
+        
+        <script>
+           /* localStorage.clear();
+            document.write("<h1>Hi " +localStorage.username+  "<h1>");*/
+           
+            /*document.write("<h1>Hi " +sessionStorage.username+  "<h1>");*/
+            
+            /*document.write("<h1>" +localStorage.length+  "<h1>");*/
+            
+            document.write("<h1>" +localStorage.getItem("country")+  "<h1>");
+            
+            document.write("<h1>" +localStorage.getItem(localStorage.key(0))+  "<h1>");
+            
+            localStorage.removeItem("country");
+        
+        </script>
+        
+    </body>
+</html>
