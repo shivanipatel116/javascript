@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Javascript nested loop</title>
+
+</head>
+<body>
+<h1>Javascript labs</h1>
+<h2>Nested loop</h2>
+<input type="button" value="Display 1 to 10" onclick="nested()"/>
+<p id="lab30result"></p>
+
+
+<script type="application/javascript">
+    
+    function nested(){
+
+        var k = 0;
+                
+        for(var i=0;i<2;i++){
+            for(var j=1; j<=10;j++)
+            {
+                k = k + j + "<br>";
+                
+            }
+            
+        }
+        
+        document.getElementById("lab30result").innerHTML = k;
+    }
+
+</script>
+
+</body>
+</html>
