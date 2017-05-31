@@ -1,0 +1,259 @@
+
+Only the questions for the Quiz Demo
+
+if(lessonsIndex == 1) {
+            
+            var question1 = new Quiz("What is a key benefit for using HTML5?",
+                         "Choose an answer",
+                         "It works with many different types of devices without alteration.",
+                         "It introduces JavaScript to the development community.",
+                         "It provides plug-ins for running video and audio.",
+                         "It phases out hyperlinks with touch-screen capabilities.",
+                         2
+                        );
+
+var question2 = new Quiz("What version of HTML introduced CSS?",
+                         "Choose an answer",
+                         "HTML 3.2",
+                         "HTML 4.0",
+                         "XHTML",
+                         "HTML5 ",
+                         3
+                        );
+
+var question3 = new Quiz("Which of the following is used with the HTML5 &lt;video&gt; element to identify the location and file name of the media resource?",
+                         "Choose an answer",
+                         "The type attribute",
+                         "The src attribute",
+                         "The &lt;source&gt; element",
+                         "The &lt;audio&gt; element",
+                         3
+                        );
+
+var question4 = new Quiz("Which HTML5 structure element defines hypertext menus to access various pages of a Web site?",
+                         "Choose an answer",
+                         "&lt;header&gt;",
+                         "&lt;article&gt;",
+                         "&lt;aside&gt;",
+                         "&lt;nav&gt;",
+                         5
+                        );
+
+var question5 = new Quiz("What is one advantage that HTML5 APIs offer for modern Web design?",
+                         "Choose an answer",
+                         "They enable users to view Flash content on mobile devices.",
+                         "They enable developers to create apps without any coding knowledge.",
+                         "They enable older browsers to display any type of multimedia content. ",
+                         "They enable users to view content such as multimedia without a plug-in.",
+                         5
+                        );
+
+var question6 = new Quiz("The terms 'HTML5 family' and 'Web development trifecta' are sometimes used to refer to which combination of Web technologies?",
+                         "Choose an answer",
+                         "HTML5, CSS3 and JavaScript",
+                         "HTML5, XML and CSS3",
+                         "HTML5, JavaScript and Flash",
+                         "HTML5, Flash and XML",
+                         2
+                        );
+
+var question7 = new Quiz("Which HTML5 structure element was designed to enclose Web site content such as company services, blogs, images and videos?",
+                         "Choose an answer",
+                         "&lt;header&gt;",  
+                         "&lt;footer&gt;",  
+                         "&lt;article&gt;", 
+                         "&lt;aside&gt;",
+                         4
+                        );
+
+var question8 = new Quiz("Which element introduced in HTML5 saves mobile device resources by avoiding the use of plug-ins to play MP4 files?",
+                         "Choose an answer",
+                         "&lt;embed&gt;",  
+                         "&lt;audio&gt;",  
+                         "&lt;doctype&gt;", 
+                         "&lt;video&gt;",
+                         5
+                        );
+            
+            //questionsA();
+            
+        } else if(lessonsIndex == 2) {
+            
+            var question1 = new Quiz("Which of the following is a CSS property?",
+                         "Choose an answer",
+                         "background-color:",
+                         "body",
+                         "lightblue;",
+                         "{ }",
+                         2
+                        );
+
+var question2 = new Quiz("When creating a Web page, how can you increase the chances that visitors will see your page as it is intended, regardless of their screen size?",
+                         "Choose an answer",
+                         "Use page layout",
+                         "Use liquid layout",
+                         "Use absolute layout",
+                         "Use fixed-width layout",
+                         3
+                        );
+
+var question3 = new Quiz("Which CSS declaration can position an element in relationship to another?",
+                         "Choose an answer",
+                         "float: right",
+                         "nav {float: left}",
+                         "position: right",
+                         "article {display: left}",
+                         2
+                        );
+
+var question4 = new Quiz("What is the default value to align images to text?",
+                         "Choose an answer",
+                         "right",
+                         "top",
+                         "middle",
+                         "bottom",
+                         5
+                        );
+
+var question5 = new Quiz("By default, how is each HTML element represented in a Web document? (Choose the best answer.)",
+                         "Choose an answer",
+                         "As a rectangular box",
+                         "As whatever shape the content forms",
+                         "As an overlapping element",
+                         "It depends on the rendering engine.",
+                         2
+                        );
+
+var question6 = new Quiz("In CSS, what is the name for a selector, property and value all grouped together?",
+                         "Choose an answer",
+                         "Declaration",
+                         "Tag",
+                         "Structure",
+                         "Rule",
+                         5
+                        );
+
+var question7 = new Quiz("In a CSS style sheet, which of the following determines the image behind the contents of a page?",
+                         "Choose an answer",
+                         "The background-image property",
+                         "The background attribute of the &lt;body&gt; tag",
+                         "The background-image selector in the &lt;body&gt; tag",
+                         "The img property",
+                         2
+                        );
+
+var question8 = new Quiz("You need to add the same CSS style to your images, headings and paragraph text on a Web site. Which CSS entry could accomplish this task?",
+                         "Choose an answer",
+                         ".right {text-align: right;}",
+                         "p.right {text-align: right;}",
+                         "#right{text-align: right;}",
+                         "#p{text-align: right;}",
+                         2
+                        );
+            
+            //questionsA();
+            
+        } else if(lessonsIndex == 3) {
+            
+            var question1 = new Quiz("What is a scripting language?",
+                         "Choose an answer",
+                         "A meta-language used to create other language",
+                         "A markup language used to format text and graphics on Web pages",
+                         "A programming language used for network communication",
+                         "A programming language used to add Web page functionality",
+                         5
+                        );
+
+var question2 = new Quiz("A key characteristic of JavaScript is that it is:",
+                         "Choose an answer",
+                         "platform-dependent",
+                         "object-driven",
+                         "event-driven",
+                         "relatively difficult to learn",
+                         4
+                        );
+
+var question3 = new Quiz("Which task is an example of a client-side JavaScript application?",
+                         "Choose an answer",
+                         "Sending a message to a Web page user ",
+                         "Saving client state in a multi-page process without cookies",
+                         "Enabling a server-side image map",
+                         "Compiling, running and debugging applications",
+                         2
+                        );
+
+var question4 = new Quiz("Which element is used to embed JavaScript into an HTML document?",
+                         "Choose an answer",
+                         "The HTML &lt;language&gt; element",
+                         "The JavaScript &lt;script&gt; element",
+                         "The HTML &lt;link&gt; element",
+                         "The HTML &lt;script&gt; element",
+                         5
+                        );
+
+var question5 = new Quiz("Which common JavaScript method enables you to display a message to the user in the HTML page, rather than in a pop-up box?",
+                         "Choose an answer",
+                         "alert()",
+                         "prompt()",
+                         "document.write()",
+                         "window.confirm()",
+                         4
+                        );
+
+var question6 = new Quiz("Which of the following statements about JavaScript is true?",
+                         "Choose an answer",
+                         "Mobile browsers cannot use JavaScript",
+                         "JavaScript runs the same on all browsers",
+                         "JavaScript is a compiled language",
+                         "JavaScript is platform-independent",
+                         5
+                        );
+
+var question7 = new Quiz("In programming, developers use what two other terms to refer to the attributes and behaviors assigned to objects?",
+                         "Choose an answer",
+                         "Characteristics and actions",
+                         "Properties and methods",
+                         "Objects and variables",
+                         "Events and actions",
+                         3
+                        );
+
+var question8 = new Quiz("You are creating an HTML5 API that includes JavaScript. You need to create a calculation in JavaScript for an object to perform. What is the scripting term used to describe the actions that an object can be made to perform? ",
+                         "Choose an answer",
+                         "Methods",
+                         "Values",
+                         "Properties",
+                         "Value",
+                         2
+                        );
+            
+            //questionsA();
+            
+        } 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
