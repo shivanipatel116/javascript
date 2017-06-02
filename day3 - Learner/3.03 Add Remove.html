@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<title>Javascript pop element from array</title>
+
+</head>
+<body>
+<h1>Javascript labs</h1>
+<h2>Lab 22 - Pop element from array</h2>
+<input id="lab22input" />
+<!--  add element to end of array -->
+<input type="button" value="Push member to array" onclick="lab22push(lab22input.value)" />
+<!--  remove last element of the array -->
+<input type="button" value="Pop member from array" onclick="lastpop()" />
+<!--  remove the first element of the array -->
+<input type="button" value="Shift member from array" onclick="firstshift()" />
+<!--  add to the first element of the array -->
+<input type="button" value="Shift member from array" onclick="firstunshift(lab22input.value)" />
+
+<p id="lab22result"></p>
+<!--<p id="lab22result"></p>-->
+	
+<script>
+    var a1 = [];
+    
+    function lab22push(a){
+        
+        a1.push(a);
+        document.getElementById("lab22result").innerHTML = a1;
+    }
+    
+    function lastpop(){
+                    
+        a1.pop();
+       
+        document.getElementById("lab22result").innerHTML = a1;
+    }
+    
+    function firstshift(){
+        
+        a1.shift();
+        
+        document.getElementById("lab22result").innerHTML = a1;
+    }
+    
+    function firstunshift(a){
+        
+        a1.unshift(a);
+        
+        document.getElementById("lab22result").innerHTML = a1;
+    }
+    
+
+</script>
+
+</body>
+</html>
