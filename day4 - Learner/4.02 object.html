@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<p>Type Fullname</p>
+
+<p id="demo"></p>
+
+<script>
+    
+    var a1 = {
+      
+        firstname: "shivani",
+        surname: "patel",
+        
+        fullName: function(){
+        
+            return this.firstname + " " + this.surname;
+        
+        }
+        
+    };
+    
+    document.getElementById("demo").innerHTML = a1.fullName();
+
+</script>
+
+</body>
+</html>

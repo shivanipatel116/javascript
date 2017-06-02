@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Object</p>
+<p id="demo"></p><br>
+<p id="demo1"></p>
+
+<script>
+    
+    var hotel = {
+        
+        name: "Taj",
+        rooms: 40,
+        booked: 25,
+        
+        checkAvailableRoom: function(){
+            return this.rooms - this.booked;
+        }
+        
+    };  
+    
+    
+    
+    document.getElementById("demo").innerHTML = hotel.checkAvailableRoom();
+    
+    
+
+</script>
+</body>
+</html>
+
